@@ -31,11 +31,11 @@ const CONFIG = {
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
     '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
+    '🤝 三好学生：好困好饿好想回家',
     '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
+    '🏠 某‌知名啥也不‌是博主',
     '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🧱 拖延俱乐部顶级VIP'
   ],
   HEO_INFO_CARD_URL: 'https://github.com/BanDianMan/NotionNext', // 个人资料底部按钮链接
 
@@ -99,7 +99,7 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
