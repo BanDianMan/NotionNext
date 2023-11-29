@@ -10,8 +10,8 @@ const CONFIG = {
   ],
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
+  HEO_HERO_TITLE_1: '技术分享',
+  HEO_HERO_TITLE_2: '与学习记录',
   HEO_HERO_TITLE_3: 'HEYIWEN.COM',
   HEO_HERO_TITLE_4: '最新发布',
   HEO_HERO_TITLE_5: '欢迎来到这里👏',
