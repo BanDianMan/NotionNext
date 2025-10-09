@@ -41,25 +41,15 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang={BLOG.LANG}>
-        <Head>
-          {/* 预加载字体 */}
-          {BLOG.FONT_AWESOME && (
-            <>
-              <link
-                rel='preload'
-                href={BLOG.FONT_AWESOME}
-                as='style'
-                crossOrigin='anonymous'
-              />
-              <link
-                rel='stylesheet'
-                href={BLOG.FONT_AWESOME}
-                crossOrigin='anonymous'
-                referrerPolicy='no-referrer'
-              />
-            </>
-          )}
+            <Html lang={BLOG.LANG}>
+                <Head>
+                <meta name="baidu-site-verification" content="codeva-4y4YJ8eVMq" />
+                <link rel='icon' href= {`${BLOG.BLOG_FAVICON}`} />
+                  {/* 预加载字体 */}
+                  {BLOG.FONT_AWESOME && <>
+                      <link rel='preload' href={BLOG.FONT_AWESOME} as="style" crossOrigin="anonymous" />
+                      <link rel="stylesheet" href={BLOG.FONT_AWESOME} crossOrigin="anonymous" referrerPolicy="no-referrer" />
+                  </>}
 
           {/* 预先设置深色模式，避免闪烁 */}
           <script dangerouslySetInnerHTML={{ __html: darkModeScript }} />
